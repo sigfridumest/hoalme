@@ -1,0 +1,15 @@
+Package: hoalme
+Version: 0.0-1
+Date: 2009-10-28
+Title: Higher Order Asymptotic Inference for the Linear Mixed Effects Model
+Author: Sigfrido Iglesias-Gonzalez <sigfrido@alumni.utoronto.ca>
+Maintainer: Sigfrido Iglesias-Gonzalez <sigfrido@alumni.utoronto.ca>
+Depends: R (>= 2.9.0), nlme, numDeriv
+LazyData: yes
+Description: Higher Order Asymptotic Inference for the Linear Mixed Effects Model.
+	hoalme package computes accurate intervals for scalar fixed effects and variance component parameters in the mixed linear model using maximum likelihood estimation
+	and small sample asymptotics (higher order asymptotics) techniques, particularly the modified ratio as proposed by Fraser & Reid and developed in unpublished PhD Thesis
+	'Highly Accurate Tests for the Mixed Linear Model' by Sigfrido Iglesias-Gonzalez (2007).
+License: GPL (>= 2)
+NeedsCompilation: yes
+Packaged: 2010-10-17 21:14:45 UTC; sigfrido
